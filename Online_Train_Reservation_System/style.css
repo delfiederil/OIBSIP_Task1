@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4b1fa6, #7c3aed, #ec4899);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background: rgba(255, 255, 255, 0.88);
+    width: 420px;
+    padding: 36px;
+    border-radius: 28px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+}
+.card h2 {
+    color: #2b145c;
+    margin-bottom: 26px;
+    text-align: center;
+    font-weight: 600;
+}
+input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: 1px solid #d0cde1;
+    background: #ffffff;
+    color: #2b145c;        
+    font-size: 14px;
+}
+.btn {
+    width: 100%;
+    height: 48px;             
+    border-radius: 14px;       
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: linear-gradient(135deg, #5f2eea, #ff4d6d);
+}
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+.link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #7b2ff7;
+    font-weight: 500;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.success {
+    color: #16a34a;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.error {
+    color: #dc2626;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+::placeholder {
+    color: #6b7280;
+}
+.action-list {
+    margin-top: 24px;
+}
+.action-box {
+    display: block;
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    background: #ffffff;
+    color: #2b145c;
+    border-radius: 12px;
+    border: 1px solid #d0cde1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+box-shadow: inset 0 0 0 1px rgba(0,0,0,0.02);
+    transition: all 0.2s ease;
+}
+.action-box:hover {
+    background: #f3f1ff;
+    border-color: #b8b3e6;
+}
+.pill-actions {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.pill-btn {
+    background: #ffffff;
+    color: #2b145c;
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #d0cde1;
+    transition: all 0.2s ease;
+}
+.pill-btn:hover {
+    background: #f4f2ff;
+    border-color: #b8b3e6;
+}
+.back-link {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #5f2eea;
+    text-decoration: none;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+::placeholder {
+    color: #4b5563;   
+    font-weight: 500;
+}
+.card {
+    display: block !important;
+}
+.card {
+    position: relative;
+    z-index: 2;
+}
+.btn {
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    padding: 12px;
+    width: 220px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(135deg, #6a11cb, #ff4d6d);
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn.logout {
+    background: linear-gradient(135deg, #ff4d6d, #ff7a18);
+}
+.table-card {
+    width: 720px;
+    max-width: 95%;
+}
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ticket-table thead {
+    background: #f3f1ff;
+}
+.ticket-table th {
+    padding: 12px;
+    color: #2b145c;
+    font-weight: 600;
+    text-align: center;
+}
+.ticket-table td {
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+.ticket-table tbody tr:hover {
+    background: #faf9ff;
+}
+.status {
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.status.booked {
+    background: #dcfce7;
+    color: #166534;
+}
+.status.cancelled {
+    background: #fee2e2;
+    color: #991b1b;
+}
+.subtitle {
+    margin-top: -10px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    color: #5b556f;
+    text-align: center;
+}
+.link {
+    color: #6a11cb;                
+    text-decoration: underline;
+    text-decoration-color: #6a11cb; 
+    font-weight: 500;
+}
+.link:hover {
+    color: #ff4d6d;                 
+    text-decoration-color: #ff4d6d;
+}
+
