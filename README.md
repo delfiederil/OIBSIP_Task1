@@ -1,175 +1,154 @@
+# 🚆 OIBSIP – Online Train Reservation System  
+### *(PHP & MySQL Web Application)*
 
+---
 
-🚆 OIBSIP – Online Train Reservation System
+## 📌 Project Overview
 
-(PHP & MySQL Web Application)
+The **Online Train Reservation System** is a web-based application developed as part of the  
+**Oasis Infobyte Student Internship Program (OIBSIP)**.
 
-📌 Project Overview
+This system allows users to **register, log in, book train tickets, view reservation details, and cancel tickets** using a unique **PNR number**.
 
-The Online Train Reservation System is a web-based application developed as part of the Oasis Infobyte Student Internship Program (OIBSIP).
-This system allows users to register, log in, book train tickets, view reservation details, and cancel tickets using a unique PNR number.
+The project simulates a real-world train ticket booking system and demonstrates **full-stack web development** using **PHP, MySQL, HTML, and CSS**.
 
-The project is designed to simulate a real-world train ticket booking system and demonstrates complete full-stack web development using PHP, MySQL, HTML, and CSS.
+---
 
-🎯 Objective
+## 🎯 Objective
 
 The main objective of this project is to:
 
-Automate the process of train ticket reservation
+- Automate the process of train ticket reservation  
+- Provide a user-friendly interface for booking and managing tickets  
+- Demonstrate backend development concepts such as **authentication, database operations, and session management**  
+- Apply frontend styling for a **clean and responsive UI**
 
-Provide a user-friendly interface for booking and managing tickets
+---
 
-Demonstrate backend development concepts such as authentication, database operations, and session management
+## ✨ Features
 
-Apply frontend styling for a clean and responsive user experience
+### 🔐 User Authentication
+- User Registration  
+- Secure Login using PHP Sessions  
+- Logout functionality  
 
-✨ Features
+### 🎟️ Ticket Reservation
+- Book train tickets by entering travel details  
+- Automatic generation of a unique **PNR number**  
+- Booking confirmation message  
 
-🔐 User Authentication
+### 📄 View Tickets
+- View booked ticket details using **PNR**  
+- Displays passenger and journey information  
 
-User Registration
+### ❌ Ticket Cancellation
+- Cancel reserved tickets using **PNR number**  
+- Updates ticket status in the database  
 
-Secure Login using PHP Sessions
+### 🎨 User Interface
+- Clean and modern UI  
+- Responsive layout using CSS  
+- User-friendly forms and navigation  
 
-Logout functionality
+---
 
-🎟️ Ticket Reservation
+## 🛠️ Technologies Used
 
-Book train tickets by entering travel details
+### Frontend
+- HTML  
+- CSS  
 
-Automatic generation of a unique PNR number
+### Backend
+- PHP  
 
-Booking confirmation message
+### Database
+- MySQL  
 
-📄 View Tickets
+### Server & Tools
+- XAMPP (Apache & MySQL)  
+- phpMyAdmin  
+- VS Code  
 
-View booked ticket details using PNR
+---
 
-Displays passenger and journey information
+## 🗂️ Project Structure
 
-❌ Ticket Cancellation
-
-Cancel reserved tickets using PNR number
-
-Updates ticket status in the database
-
-🎨 User Interface
-
-Clean and modern UI
-
-Responsive layout using CSS
-
-User-friendly forms and navigation
-
-🛠️ Technologies Used
-Frontend
-
-HTML
-
-CSS
-
-Backend
-
-PHP
-
-Database
-
-MySQL
-
-Server & Tools
-
-XAMPP (Apache & MySQL)
-
-phpMyAdmin
-
-VS Code
-
-🗂️ Project Structure
-/OIBSIP_Online_Train_Reservation_System
+OIBSIP_Online_Train_Reservation_System/
 │
-├── index.php            (Login Page)
-├── register.php         (User Registration)
-├── dashboard.php        (User Dashboard)
-├── book_ticket.php      (Ticket Booking)
-├── view_ticket.php      (View Ticket Details)
-├── cancel_ticket.php    (Cancel Ticket)
+├── index.php # Login Page
+├── register.php # User Registration
+├── dashboard.php # User Dashboard
+├── book_ticket.php # Ticket Booking
+├── view_ticket.php # View Ticket Details
+├── cancel_ticket.php # Cancel Ticket
 ├── logout.php
 │
 ├── css/
-│   └── style.css        (Styling)
+│ └── style.css # Styling
 │
-├── db.php               (Database Connection)
-├── database.sql         (MySQL Database File)
+├── db.php # Database Connection
+├── database.sql # MySQL Database File
 └── README.md
 
-🚀 How to Run the Project
-Step 1: Install XAMPP
+---
 
-Download and install XAMPP on your system.
+## 🚀 How to Run the Project
 
-Step 2: Copy Project
+### Step 1: Install XAMPP
+Download and install **XAMPP** on your system.
 
-Move the project folder into:
+### Step 2: Copy Project
+Move the project folder into:xampp/htdocs/
 
-xampp/htdocs/
+### Step 3: Start Server
+Open **XAMPP Control Panel** and start:
+- Apache  
+- MySQL  
 
-Step 3: Start Server
+### Step 4: Import Database
+1. Open `http://localhost/phpmyadmin`
+2. Create a new database
+3. Import the provided `database.sql` file
 
-Open XAMPP Control Panel and start:
+### Step 5: Run the Application
+Open your browser and visit: http://localhost/OIBSIP_Online_Train_Reservation_System
 
-Apache
+**OR using PHP built-in server:**
 
-MySQL
+---
 
-Step 4: Import Database
-
-Open http://localhost/phpmyadmin
-
-Create a new database
-
-Import the provided database.sql file
-
-Step 5: Run the Application
-
-Open browser and visit:
-
-http://localhost/OIBSIP_Online_Train_Reservation_System
-
-
-OR using PHP built-in server:
-
-php -S localhost:8000
-
-🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 
 Through this project, I gained hands-on experience in:
 
-PHP session handling and authentication
+- PHP session handling and authentication  
+- CRUD operations using MySQL  
+- Backend logic implementation  
+- Form validation and secure data handling  
+- Frontend UI design using CSS  
+- Structuring and deploying a complete web application  
 
-CRUD operations using MySQL
+---
 
-Backend logic implementation
+## 🔮 Future Enhancements
 
-Form validation and secure data handling
+- Admin panel for managing trains and bookings  
+- Seat availability tracking  
+- Fare calculation system  
+- Email/SMS notifications  
+- Online payment gateway integration  
 
-Frontend UI design using CSS
+---
 
-Structuring and deploying a complete web application
+## 👩‍💻 Author
 
-🔮 Future Enhancements
+**Delfie Deril**
+Aspiring Full-Stack Developer  
 
-Admin panel for managing trains and bookings
+🔗 LinkedIn:  
+[https://www.linkedin.com/in/delfie-deril-752b36357](https://www.linkedin.com/in/delfie-deril-752b36357)
 
-Seat availability tracking
+---
 
-Fare calculation system
 
-Email/SMS notifications
 
-Online payment gateway integration
-
-👩‍💻 Author
-
-Delly
-Aspiring Full-Stack Developer
-LinkedIn: www.linkedin.com/in/delfie-deril-752b36357
